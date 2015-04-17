@@ -1,12 +1,9 @@
 <?php
 
-require 'PasswordHash.php';
-
-$t_hasher = new PasswordHash(8, false);
-
-$pwd = 'youBastard()';
-
-echo '<p>Hashed "' . $pwd . '":  ' . $t_hasher->HashPassword( $pwd ) . '</p>';
+//require 'PasswordHash.php';
+//$t_hasher = new PasswordHash(8, false);
+//$pwd = 'youBastard()';
+//echo '<p>Hashed "' . $pwd . '":  ' . $t_hasher->HashPassword( $pwd ) . '</p>';
 
 
 $now = time();
